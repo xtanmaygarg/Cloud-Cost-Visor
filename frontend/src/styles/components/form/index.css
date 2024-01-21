@@ -1,0 +1,17 @@
+.form-control {
+    @apply flex flex-col items-center w-full gap-8;
+}
+
+.form-control label {
+    @apply text-xl text-white;
+}
+
+.form-control input,
+.form-control textarea,
+.form-control select {
+    @apply w-3/4 px-5 py-4 text-lg border-2 border-transparent focus:border-purple-900 rounded-md outline-none bg-zinc-800 placeholder:text-purple-500 placeholder:capitalize placeholder:italic placeholder:font-semibold transition-all duration-200;
+}
+
+.form-control textarea {
+    @apply rounded-md resize-none;
+}

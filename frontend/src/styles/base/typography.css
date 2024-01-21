@@ -1,0 +1,39 @@
+.banner-text {
+    @apply w-fit tracking-heading capitalize text-6xl text-white font-monoton transition-all duration-300;
+}
+
+.banner-text-inverse {
+    @apply w-fit tracking-heading capitalize text-7xl md:text-8xl text-lime-500 font-monoton transition-all duration-300 [text-shadow:-6px_-4px_0px_#F18D21];
+}
+
+.banner-btn {
+    @apply w-fit tracking-heading capitalize text-7xl md:text-8xl text-white font-monoton cursor-pointer transition-all duration-300 hover:[text-shadow:-6px_-4px_0px_#fcee1d];
+}
+
+.banner-inverse-btn {
+    @apply w-fit tracking-heading capitalize text-7xl md:text-8xl text-lime-500 font-monoton cursor-pointer transition-all duration-300 hover:[text-shadow:-6px_-4px_0px_#F18D21];
+}
+
+.main-heading-text {
+    @apply text-4xl uppercase font-raleway font-bold tracking-heading;
+}
+
+.heading-text {
+    @apply text-4xl capitalize font-raleway tracking-heading;
+}
+
+.subheading-text {
+    @apply text-3xl font-raleway;
+}
+
+.normal-text {
+    @apply text-base font-raleway;
+}
+
+.decorative-text {
+    @apply text-base font-raleway;
+}
+
+.link:hover {
+    -webkit-text-stroke: 0.5px #e0138d;
+}
